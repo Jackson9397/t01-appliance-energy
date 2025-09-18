@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Appliance Energy | Home</title>
+  <link rel="stylesheet" href="./styles.css" />
+  <meta name="description" content="Interactive demo site for appliance energy consumption (Australia).">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#/" aria-label="Go to Home">
+      <img src="./PowerIcon.png" alt="Power icon" class="brand__logo" />
+      <span class="brand__text">Appliance Energy</span>
+    </a>
+
+    <nav class="topnav" aria-label="Primary">
+      <button class="topnav__link" data-route="#/">Home</button>
+      <button class="topnav__link" data-route="#/televisions">Televisions</button>
+      <button class="topnav__link" data-route="#/about">About Us</button>
+      <span class="topnav__indicator" aria-hidden="true"></span>
+    </nav>
+  </header>
+
+  <main id="app" tabindex="-1">
+    <!-- Routed content will be injected here -->
+  </main>
+
+  <footer class="site-footer">
+    <div>
+      <span id="year"></span> · Ho Sheng Yang
+      · <span class="ack">This site was built with my own code plus assistance from GitHub Copilot for ideas and snippets.</span>
+    </div>
+  </footer>
+
+  <script src="./script.js"></script>
+</body>
+</html>
