@@ -95,7 +95,7 @@ function aboutView() {
       </ul>
 
       <h2>GenAI Usage</h2>
-      <p>Short notes about GitHub Copilot and/or ChatGPT usage appear in the README. You should be ready to explain any generated code in your sign-off demo.</p>
+      <p>Short notes about GitHub Copilot usage appear in the README. </p>
     </article>
   `;
 }
@@ -173,3 +173,4 @@ window.addEventListener("load", () => {
   if (!location.hash) location.hash = "#/"; // default
   render();
 });
+
